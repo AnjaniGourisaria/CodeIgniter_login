@@ -1,0 +1,403 @@
+CRITICAL - 2022-01-03 04:36:26 --> Undefined property: App\Controllers\Auth::$db
+#0 C:\xampp\htdocs\codeigniter\app\Controllers\Auth.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 124)
+#1 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(824): App\Controllers\Auth->check()
+#2 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-03 04:37:08 --> Object of class App\Models\UsersModel could not be converted to string
+#0 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(824): App\Controllers\Auth->check()
+#1 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-03 04:37:50 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+#0 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(824): App\Controllers\Auth->check()
+#1 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-03 04:53:16 --> syntax error, unexpected variable "$check_password"
+#0 C:\xampp\htdocs\codeigniter\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('auth/check')
+#1 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('auth/check')
+#2 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-03 04:55:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\app\Controllers\Auth.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 124)
+#1 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(824): App\Controllers\Auth->check()
+#2 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-03 04:55:43 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\app\Controllers\Auth.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 124)
+#1 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(824): App\Controllers\Auth->check()
+#2 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-03 04:58:38 --> syntax error, unexpected token "public"
+#0 C:\xampp\htdocs\codeigniter\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('auth/login')
+#1 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('auth/login')
+#2 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-03 04:59:05 --> syntax error, unexpected token "public"
+#0 C:\xampp\htdocs\codeigniter\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('auth/login')
+#1 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('auth/login')
+#2 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-03 04:59:42 --> Unmatched '}'
+#0 C:\xampp\htdocs\codeigniter\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('auth/login')
+#1 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('auth/login')
+#2 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-01-03 05:07:27 --> Unknown column 'name' in 'where clause'
+CRITICAL - 2022-01-03 05:07:27 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\app\Controllers\Auth.php(123): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(824): App\Controllers\Auth->auth()
+#3 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-03 05:25:47 --> Call to undefined function App\Controllers\checking()
+#0 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(824): App\Controllers\Auth->auth()
+#1 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-03 05:40:00 --> syntax error, unexpected token "/", expecting "{"
+#0 C:\xampp\htdocs\codeigniter\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('dashboard')
+#1 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('dashboard')
+#2 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-03 05:43:40 --> Undefined constant "auth"
+#0 C:\xampp\htdocs\codeigniter\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\codeigniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\codeigniter\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 C:\xampp\htdocs\codeigniter\app\Controllers\Dashboard.php(5): view('dashboard/index')
+#4 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-03 05:49:36 --> syntax error, unexpected single-quoted string "userinfo", expecting "]"
+#0 C:\xampp\htdocs\codeigniter\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('dashboard')
+#1 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('dashboard')
+#2 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-03 05:51:25 --> Undefined variable $usersInfo
+#0 C:\xampp\htdocs\codeigniter\app\Views\dashboard\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\codeigniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\xampp\htdocs\codeigniter\app\Controllers\Dashboard.php(12): view('dashboard/index', Array)
+#5 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-03 05:52:30 --> Undefined variable $userInfo
+#0 C:\xampp\htdocs\codeigniter\app\Views\dashboard\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\codeigniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\xampp\htdocs\codeigniter\app\Controllers\Dashboard.php(12): view('dashboard/index', Array)
+#5 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-03 05:53:17 --> Undefined variable $userInfo
+#0 C:\xampp\htdocs\codeigniter\app\Views\dashboard\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\codeigniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\xampp\htdocs\codeigniter\app\Controllers\Dashboard.php(12): view('dashboard/index', Array)
+#5 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-03 05:54:22 --> Undefined array key "u_name"
+#0 C:\xampp\htdocs\codeigniter\app\Views\dashboard\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\codeigniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\xampp\htdocs\codeigniter\app\Controllers\Dashboard.php(12): view('dashboard/index', Array)
+#5 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-03 05:55:43 --> Undefined array key "name"
+#0 C:\xampp\htdocs\codeigniter\app\Views\dashboard\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\codeigniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\xampp\htdocs\codeigniter\app\Controllers\Dashboard.php(12): view('dashboard/index', Array)
+#5 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-03 05:56:19 --> Undefined array key "email"
+#0 C:\xampp\htdocs\codeigniter\app\Views\dashboard\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\codeigniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\xampp\htdocs\codeigniter\app\Controllers\Dashboard.php(12): view('dashboard/index', Array)
+#5 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-03 05:57:20 --> Undefined array key "email"
+#0 C:\xampp\htdocs\codeigniter\app\Views\dashboard\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\codeigniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\xampp\htdocs\codeigniter\app\Controllers\Dashboard.php(12): view('dashboard/index', Array)
+#5 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-03 06:00:56 --> Undefined array key "email"
+#0 C:\xampp\htdocs\codeigniter\app\Views\dashboard\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\codeigniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\xampp\htdocs\codeigniter\app\Controllers\Dashboard.php(12): view('dashboard/index', Array)
+#5 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-03 06:02:02 --> Undefined array key "u_name"
+#0 C:\xampp\htdocs\codeigniter\app\Views\dashboard\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\codeigniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\xampp\htdocs\codeigniter\app\Controllers\Dashboard.php(12): view('dashboard/index', Array)
+#5 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-03 06:06:18 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\codeigniter\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('auth/logout')
+#1 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('auth/logout')
+#2 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-03 06:06:53 --> Undefined array key "u_name"
+#0 C:\xampp\htdocs\codeigniter\app\Views\dashboard\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\codeigniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\xampp\htdocs\codeigniter\app\Controllers\Dashboard.php(12): view('dashboard/index', Array)
+#5 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-03 06:20:19 --> syntax error, unexpected token ")", expecting "{"
+#0 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-01-03 06:32:59 --> Undefined property: App\Controllers\Auth::$db
+#0 C:\xampp\htdocs\codeigniter\app\Controllers\Auth.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 139)
+#1 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(824): App\Controllers\Auth->auth()
+#2 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-03 06:33:44 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, int returned
+#0 C:\xampp\htdocs\codeigniter\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(1, 'update')
+#1 C:\xampp\htdocs\codeigniter\system\Model.php(646): CodeIgniter\BaseModel->update(Array, 1)
+#2 C:\xampp\htdocs\codeigniter\app\Controllers\Auth.php(140): CodeIgniter\Model->update('login_in', 1)
+#3 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(824): App\Controllers\Auth->auth()
+#4 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-03 06:34:02 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\xampp\htdocs\codeigniter\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('1', 'update')
+#1 C:\xampp\htdocs\codeigniter\system\Model.php(646): CodeIgniter\BaseModel->update(Array, '1')
+#2 C:\xampp\htdocs\codeigniter\app\Controllers\Auth.php(140): CodeIgniter\Model->update('login_in', '1')
+#3 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(824): App\Controllers\Auth->auth()
+#4 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-03 06:35:05 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\xampp\htdocs\codeigniter\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('4', 'update')
+#1 C:\xampp\htdocs\codeigniter\system\Model.php(646): CodeIgniter\BaseModel->update(Array, '4')
+#2 C:\xampp\htdocs\codeigniter\app\Controllers\Auth.php(140): CodeIgniter\Model->update('login_in', '4')
+#3 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(824): App\Controllers\Auth->auth()
+#4 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-03 06:36:58 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, int returned
+#0 C:\xampp\htdocs\codeigniter\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(1, 'update')
+#1 C:\xampp\htdocs\codeigniter\system\Model.php(646): CodeIgniter\BaseModel->update(Array, 1)
+#2 C:\xampp\htdocs\codeigniter\app\Controllers\Auth.php(141): CodeIgniter\Model->update('login_in', 1)
+#3 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(824): App\Controllers\Auth->auth()
+#4 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-03 06:58:10 --> Object of class App\Models\UsersModel could not be converted to string
+#0 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(824): App\Controllers\Auth->auth()
+#1 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-03 07:14:06 --> Undefined constant "App\Controllers\model"
+#0 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(824): App\Controllers\Auth->auth()
+#1 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-03 07:18:07 --> syntax error, unexpected variable "$model"
+#0 C:\xampp\htdocs\codeigniter\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('auth/logout')
+#1 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('auth/logout')
+#2 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-03 07:20:00 --> syntax error, unexpected variable "$model"
+#0 C:\xampp\htdocs\codeigniter\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('auth/logout')
+#1 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('auth/logout')
+#2 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-03 07:20:47 --> syntax error, unexpected variable "$model"
+#0 C:\xampp\htdocs\codeigniter\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('auth/logout')
+#1 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('auth/logout')
+#2 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-03 07:21:32 --> syntax error, unexpected variable "$usersModels"
+#0 C:\xampp\htdocs\codeigniter\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('auth/logout')
+#1 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('auth/logout')
+#2 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-03 07:22:30 --> syntax error, unexpected variable "$usersModels"
+#0 C:\xampp\htdocs\codeigniter\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('auth/logout')
+#1 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('auth/logout')
+#2 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-03 07:26:59 --> Unsupported operand types: string + string
+#0 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(824): App\Controllers\Auth->logout()
+#1 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-03 07:27:27 --> syntax error, unexpected variable "$u_name", expecting ")"
+#0 C:\xampp\htdocs\codeigniter\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('auth/logout')
+#1 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('auth/logout')
+#2 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-03 07:27:44 --> syntax error, unexpected variable "$u_name", expecting ")"
+#0 C:\xampp\htdocs\codeigniter\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('auth/logout')
+#1 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('auth/logout')
+#2 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-03 07:39:06 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\codeigniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\codeigniter\system\Common.php(1097): CodeIgniter\View\View->render('auth/register', Array, true)
+#2 C:\xampp\htdocs\codeigniter\app\Controllers\Auth.php(72): view('auth/register', Array)
+#3 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(824): App\Controllers\Auth->save()
+#4 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-03 07:39:22 --> syntax error, unexpected identifier "display_error"
+#0 C:\xampp\htdocs\codeigniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\codeigniter\system\Common.php(1097): CodeIgniter\View\View->render('auth/register', Array, true)
+#2 C:\xampp\htdocs\codeigniter\app\Controllers\Auth.php(72): view('auth/register', Array)
+#3 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(824): App\Controllers\Auth->save()
+#4 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-03 07:39:52 --> syntax error, unexpected token "<"
+#0 C:\xampp\htdocs\codeigniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\codeigniter\system\Common.php(1097): CodeIgniter\View\View->render('auth/register', Array, true)
+#2 C:\xampp\htdocs\codeigniter\app\Controllers\Auth.php(72): view('auth/register', Array)
+#3 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(824): App\Controllers\Auth->save()
+#4 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
