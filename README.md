@@ -12,11 +12,11 @@
 #Redirect 
 ![alt text](https://github.com/AnjaniGourisaria/CodeIgniter_login/blob/main/redirect_after_register.png)
  # To Run Code Type
- Download Xamp/Windows or Lamp/Linux or Lamp/Mac 
- Step 1:- Go to / of  CodeIgniter_login
- Step 2:- C:\xampp\php\php.exe spark serve
-   OR
- Make the and set the php.exe
+    Download Xamp/Windows or Lamp/Linux or Lamp/Mac 
+    Step 1:- Go to / of  CodeIgniter_login
+    Step 2:- C:\xampp\php\php.exe spark serve
+    OR
+    Make the and set the php.exe
 
 [![Build Status](https://github.com/codeigniter4/CodeIgniter4/workflows/PHPUnit/badge.svg)](https://github.com/codeigniter4/CodeIgniter4/actions?query=workflow%3A%22PHPUnit%22)
 [![Coverage Status](https://coveralls.io/repos/github/codeigniter4/CodeIgniter4/badge.svg?branch=develop)](https://coveralls.io/github/codeigniter4/CodeIgniter4?branch=develop)
