@@ -1,11 +1,11 @@
 # CodeIgniter 4 Development
 ![alt text](https://github.com/AnjaniGourisaria/CodeIgniter_login/blob/main/login.png)
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/AnjaniGourisaria/CodeIgniter_login/blob/main/register.png)
+![alt text](https://github.com/AnjaniGourisaria/CodeIgniter_login/blob/main/error_login_but_can_be_change_codeWritten.png)
+![alt text](https://github.com/AnjaniGourisaria/CodeIgniter_login/blob/main/err_reg.png)
+![alt text](https://github.com/AnjaniGourisaria/CodeIgniter_login/blob/main/logout.png)
+![alt text](https://github.com/AnjaniGourisaria/CodeIgniter_login/blob/main/redirect_after_register.png)
+
 
 [![Build Status](https://github.com/codeigniter4/CodeIgniter4/workflows/PHPUnit/badge.svg)](https://github.com/codeigniter4/CodeIgniter4/actions?query=workflow%3A%22PHPUnit%22)
 [![Coverage Status](https://coveralls.io/repos/github/codeigniter4/CodeIgniter4/badge.svg?branch=develop)](https://coveralls.io/github/codeigniter4/CodeIgniter4?branch=develop)
