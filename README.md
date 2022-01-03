@@ -1,5 +1,5 @@
 # CodeIgniter 4 Development
-![alt text](https://github.com/AnjaniGourisaria/CodeIgniter_login/main/login.png?raw=true)
+![alt text](https://github.com/AnjaniGourisaria/CodeIgniter_login/blob/main/login.png)
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
