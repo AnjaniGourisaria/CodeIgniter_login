@@ -1,9 +1,15 @@
 # CodeIgniter 4 Development
-![alt text](https://github.com/AnjaniGourisaria/CodeIgniter_login/blob/main/login.png)
+#Register 
 ![alt text](https://github.com/AnjaniGourisaria/CodeIgniter_login/blob/main/register.png)
-![alt text](https://github.com/AnjaniGourisaria/CodeIgniter_login/blob/main/error_login_but_can_be_change_codeWritten.png)
+#Error When Something is invaild
 ![alt text](https://github.com/AnjaniGourisaria/CodeIgniter_login/blob/main/err_reg.png)
+#Login
+![alt text](https://github.com/AnjaniGourisaria/CodeIgniter_login/blob/main/login.png)
+# Error Invalid Creditials  you can show email and passowrd error when wrong typed code is written
+![alt text](https://github.com/AnjaniGourisaria/CodeIgniter_login/blob/main/error_login_but_can_be_change_codeWritten.png)
+#logout
 ![alt text](https://github.com/AnjaniGourisaria/CodeIgniter_login/blob/main/logout.png)
+#Redirect 
 ![alt text](https://github.com/AnjaniGourisaria/CodeIgniter_login/blob/main/redirect_after_register.png)
 
 
