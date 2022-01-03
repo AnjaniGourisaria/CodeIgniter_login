@@ -1,4 +1,27 @@
 # CodeIgniter 4 Development
+#Register 
+![alt text](https://github.com/AnjaniGourisaria/CodeIgniter_login/blob/main/register.png)
+#Error When Something is invaild
+![alt text](https://github.com/AnjaniGourisaria/CodeIgniter_login/blob/main/err_reg.png)
+#Login
+![alt text](https://github.com/AnjaniGourisaria/CodeIgniter_login/blob/main/login.png)
+# Error Invalid Creditials  you can show email and passowrd error when wrong typed code is written
+![alt text](https://github.com/AnjaniGourisaria/CodeIgniter_login/blob/main/error_login_but_can_be_change_codeWritten.png)
+#logout
+![alt text](https://github.com/AnjaniGourisaria/CodeIgniter_login/blob/main/logout.png)
+#Redirect 
+![alt text](https://github.com/AnjaniGourisaria/CodeIgniter_login/blob/main/redirect_after_register.png)
+ # To Run Code Type
+    Download Xamp/Windows or Lamp/Linux or Lamp/Mac 
+    Step 1:- Go to / of  CodeIgniter_login
+    Step 2:- C:\xampp\php\php.exe spark serve
+    Step 3:- Setup Database Using Xamp http://localhost/phpmyadmin/ 
+    Step 4:- Visit http://localhost/phpmyadmin/ and press "New" in left side 
+    Step 4:- Give name to Table 'registration' 
+    Step 5:- See Navbar of http://localhost/phpmyadmin/ Click Import or http://localhost/phpmyadmin/index.php?route=/database/import&db=registration
+    Step 6:- Upload create.sql in this directory 
+    OR
+    Make the and set the php.exe Environmental Variable 
 
 [![Build Status](https://github.com/codeigniter4/CodeIgniter4/workflows/PHPUnit/badge.svg)](https://github.com/codeigniter4/CodeIgniter4/actions?query=workflow%3A%22PHPUnit%22)
 [![Coverage Status](https://coveralls.io/repos/github/codeigniter4/CodeIgniter4/badge.svg?branch=develop)](https://coveralls.io/github/codeigniter4/CodeIgniter4?branch=develop)
