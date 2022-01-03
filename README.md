@@ -15,6 +15,11 @@
     Download Xamp/Windows or Lamp/Linux or Lamp/Mac 
     Step 1:- Go to / of  CodeIgniter_login
     Step 2:- C:\xampp\php\php.exe spark serve
+    Step 3:- Setup Database Using Xamp http://localhost/phpmyadmin/ 
+    Step 4:- Visit http://localhost/phpmyadmin/ and press "New" in left side 
+    Step 4:- Give name to Table 'registration' 
+    Step 5:- See Navbar of http://localhost/phpmyadmin/ Click Import or http://localhost/phpmyadmin/index.php?route=/database/import&db=registration
+    Step 6:- Upload Create.sql in this directory 
     OR
     Make the and set the php.exe Environmental Variable 
 
